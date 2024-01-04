@@ -5,8 +5,8 @@ dependencies:
     version: 7.1.0
     when: graylog_install_java
 
-  - role: "elastic.elasticsearch"
-    src: https://github.com/elastic/ansible-elasticsearch.git
+  - role: "hd.elasticsearch"
+    src: https://github.com/Hyperion-Decimus/ansible-elasticsearch.git
     version: main
     scm: git
     when: graylog_install_elasticsearch
